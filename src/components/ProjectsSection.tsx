@@ -10,10 +10,10 @@ export default function ProjectsSection() {
       title: "Personal Portfolio",
       subtitle: "Interactive Developer Portfolio",
       description: "A modern, responsive portfolio website showcasing my skills and professional journey with smooth animations.",
-      period: "December 2024",
+      period: "December 2025",
       technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion"],
       image: "/portfolio.png",
-      link: "#",
+      link: "https://bhawnaahuja.com",
       hasSource: true,
       gradient: "from-blue-500 to-cyan-500",
       icon: <Code className="w-4 h-4" />,
@@ -169,7 +169,7 @@ export default function ProjectsSection() {
                     </motion.a>
                     {project.hasSource && (
                       <motion.a
-                        href="https://github.com/yourusername/portfolio"
+                        href="https://github.com/bhawnaahuja89989-debug/portfolio"
                         target="_blank"
                         rel="noopener noreferrer"
                         whileHover={{ scale: 1.05 }}

@@ -14,8 +14,45 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Bhawna Ahuja",
-  description: "Portfolio",
+  title: "Bhawna | Software Developer Portfolio",
+  description:
+    "Portfolio of Bhawna – Software Developer specializing in Next.js, React, and modern web technologies.",
+  keywords: [
+    "Bhawna",
+    "Software Developer",
+    "Next.js Portfolio",
+    "Angular Developer",
+    "Frontend Engineer",
+  ],
+  authors: [{ name: "Bhawna" }],
+  creator: "Bhawna",
+  openGraph: {
+    title: "Bhawna | Software Developer Portfolio",
+    description:
+      "Modern portfolio built with Next.js, React, and Tailwind CSS.",
+    url: "https://bhawnaahuja.com",
+    siteName: "Bhawna Ahuja",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Bhawna Portfolio",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Bhawna | Software Developer Portfolio",
+    description:
+      "Software Developer portfolio showcasing projects and skills.",
+    images: ["/og-image.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({

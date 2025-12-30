@@ -7,10 +7,10 @@ export default function FooterSection() {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: <Github className="w-5 h-5" />, href: "https://github.com/yourusername", label: "GitHub" },
+    { icon: <Github className="w-5 h-5" />, href: "https://github.com/bhawnaahuja89989-debug", label: "GitHub" },
     { icon: <Linkedin className="w-5 h-5" />, href: "https://www.linkedin.com/in/bhawna-ahujaa/", label: "LinkedIn" },
     { icon: <Instagram className="w-5 h-5" />, href: "http://instagram.com/bhawnaa15", label: "Instagram" },
-    { icon: <Mail className="w-5 h-5" />, href: "mailto:bhawnaahuja0015@gmail.com", label: "Email" },
+    { icon: <Mail className="w-5 h-5" />, href: "mailto:bhawnaahuja89989@gmail.com", label: "Email" },
   ];
 
   const quickLinks = [

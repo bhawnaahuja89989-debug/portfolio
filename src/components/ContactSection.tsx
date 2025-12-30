@@ -17,8 +17,8 @@ export default function ContactSection() {
     {
       icon: <Mail className="w-6 h-6" />,
       label: "Email",
-      value: "bhawnaahuja0015@gmail.com",
-      href: "mailto:bhawnaahuja0015@gmail.com",
+      value: "bhawnaahuja89989@gmail.com",
+      href: "mailto:bhawnaahuja89989@gmail.com",
       color: "from-blue-500 to-cyan-500"
     },
     {
@@ -38,7 +38,7 @@ export default function ContactSection() {
       icon: <Github className="w-6 h-6" />,
       label: "GitHub",
       value: "View my work",
-      href: "https://github.com/yourusername",
+      href: "https://github.com/bhawnaahuja89989-debug",
       color: "from-orange-500 to-red-500"
     }
   ];
@@ -193,7 +193,7 @@ export default function ContactSection() {
               <p className="text-sm text-[hsl(var(--text-muted))] mb-4">Or find me on social media</p>
               <div className="flex gap-3">
                 {[
-                  { icon: <Facebook className="w-5 h-5" />, href: "https://facebook.com/yourusername" },
+                  { icon: <Facebook className="w-5 h-5" />, href: "https://www.facebook.com/bhawna.ahuja.39566/" },
                   { icon: <Linkedin className="w-5 h-5" />, href: "https://www.linkedin.com/in/bhawna-ahujaa/" },
                   { icon: <Instagram className="w-5 h-5" />, href: "http://instagram.com/bhawnaa15" }
                 ].map((social, index) => (
