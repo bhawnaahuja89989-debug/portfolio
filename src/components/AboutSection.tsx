@@ -94,7 +94,7 @@ export default function AboutSection() {
           className="space-y-6 text-lg text-[hsl(var(--text-secondary))] leading-relaxed"
         >
           <p>
-            I'm a <span className="font-semibold text-primary">Full Stack Developer</span> with
+            I&apos;m a <span className="font-semibold text-primary">Full Stack Developer</span> with
             a passion for building web applications that are both powerful and user-friendly.
             With 2 years of hands-on experience, I’ve worked on everything from frontend interfaces
             to backend APIs and database optimization.

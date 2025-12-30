@@ -14,6 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://bhawnaahuja.com"),
   title: "Bhawna | Software Developer Portfolio",
   description:
     "Portfolio of Bhawna – Software Developer specializing in Next.js, React, and modern web technologies.",
@@ -30,7 +31,7 @@ export const metadata: Metadata = {
     title: "Bhawna | Software Developer Portfolio",
     description:
       "Modern portfolio built with Next.js, React, and Tailwind CSS.",
-    url: "https://bhawnaahuja.com",
+    url: "/",
     siteName: "Bhawna Ahuja",
     images: [
       {
@@ -54,6 +55,7 @@ export const metadata: Metadata = {
     follow: true,
   },
 };
+
 
 export default function RootLayout({
   children,
