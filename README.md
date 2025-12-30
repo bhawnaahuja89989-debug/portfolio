@@ -1,36 +1,228 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Bhawna Ahuja - Portfolio
 
-## Getting Started
+A modern, responsive portfolio website built with Next.js 15, showcasing my journey as a Full Stack Developer. Features smooth animations, glassmorphism design, and a beautiful particle background.
 
-First, run the development server:
+## ✨ Features
 
+- 🎨 **Modern UI/UX** - Glassmorphism design with smooth animations
+- 🌓 **Dark/Light Mode** - Toggle between themes with animated transitions
+- 📱 **Fully Responsive** - Optimized for mobile, tablet, and desktop
+- ⚡ **Fast Performance** - Built with Next.js 15 for optimal speed
+- 🎭 **Interactive Animations** - Powered by Framer Motion
+- ✨ **Particle Background** - Dynamic star particles with theme-aware colors
+- 📄 **Resume Download** - Download resume directly from navbar
+- 🧭 **Smooth Navigation** - Scroll-based navbar with fade effects
+- 🎯 **SEO Optimized** - Proper meta tags and structure
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **Framework**: Next.js 15 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+- **Particles**: @tsparticles/react
+
+### Features
+- **Theme Management**: next-themes
+- **Font**: Geist (Next.js optimized)
+- **Image Optimization**: Next.js Image component
+
+## 📂 Project Structure
+
+```
+portfolio/
+├── app/
+│   ├── layout.tsx          # Root layout with theme provider
+│   ├── page.tsx            # Main page with all sections
+│   ├── globals.css         # Global styles
+│   └── providers.tsx       # Theme provider wrapper
+├── components/
+│   ├── NavbarSection.tsx   # Navigation bar with theme toggle
+│   ├── Splash.tsx          # Animated splash screen
+│   ├── Hero.tsx            # Hero section with stats
+│   ├── AboutSection.tsx    # About me section
+│   ├── EducationSection.tsx # Journey timeline
+│   ├── SkillsSection.tsx   # Skills & tech stack (optional)
+│   ├── ProjectsSection.tsx # Featured projects
+│   ├── ContactSection.tsx  # Contact form & info
+│   ├── FooterSection.tsx   # Footer with links
+│   ├── ParticlesBackground.tsx # Animated particles
+│   ├── ScrollProgressBar.tsx   # Scroll indicator
+│   └── ScrollReveal.tsx    # Scroll animations wrapper
+├── public/
+│   ├── portfolio.png       # Portfolio project screenshot
+│   ├── botpenguin.png      # BotPenguin project screenshot
+│   ├── medoplus.png        # Medoplus project screenshot
+│   └── resume/
+│       └── Bhawna-Resume.pdf # Downloadable resume
+└── README.md
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+ 
+- npm, yarn, pnpm, or bun
+
+### Installation
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/bhawnaahuja89989-debug/portfolio.git
+cd portfolio
+```
+
+2. **Install dependencies**
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+3. **Run the development server**
 ```bash
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. **Open your browser**
+Navigate to [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎨 Customization
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Update Personal Information
 
-## Learn More
+1. **Projects** - Edit `components/ProjectsSection.tsx`
+   - Update project details, technologies, and links
+   - Add your project screenshots to `/public/`
 
-To learn more about Next.js, take a look at the following resources:
+2. **About Section** - Edit `components/AboutSection.tsx`
+   - Update bio, experience, and achievements
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Contact Info** - Edit `components/ContactSection.tsx` and `components/FooterSection.tsx`
+   - Update email, social media links
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. **Resume** - Replace `/public/resume/Bhawna-Resume.pdf` with your resume
 
-## Deploy on Vercel
+5. **Journey Timeline** - Edit `components/EducationSection.tsx`
+   - Update education and work history
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Styling
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Colors**: Update `tailwind.config.js` and `globals.css`
+  - Primary color: `--color-primary: #9B5DE5` (purple)
+- **Theme**: Modify theme settings in `app/providers.tsx`
+
+## 📦 Build for Production
+
+```bash
+npm run build
+npm run start
+```
+
+## 🌐 Deployment
+
+### Deploy on Vercel (Recommended)
+
+1. Push your code to GitHub
+2. Import your repository on [Vercel](https://vercel.com)
+3. Vercel will automatically detect Next.js and deploy
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/portfolio)
+
+## 📝 Environment Variables
+
+No environment variables required for basic setup. If you add features like contact form API:
+
+```env
+# .env.local
+NEXT_PUBLIC_EMAILJS_SERVICE_ID=your_service_id
+NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=your_template_id
+NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=your_public_key
+```
+
+## 🎯 Features Breakdown
+
+### Splash Screen
+- Animated name reveal on page load
+- Smooth fade-out transition
+
+### Navigation Bar
+- Sticky navbar with scroll detection
+- Fades out on scroll down, appears on scroll up
+- Hamburger menu for all screen sizes
+- Theme toggle with smooth animations
+- Resume download button
+
+### Hero Section
+- Bold typography with gradient text
+- Stats showcase (experience, projects, hours)
+- Animated entrance
+
+### About Section
+- Professional bio
+- Tech stack pills
+- Key achievements with metrics
+- "What I Bring to the Table" highlights
+
+### Journey Timeline
+- Vertical timeline with animated path
+- Education and work milestones
+- Gradient-colored cards with hover effects
+
+### Projects
+- Grid layout with project cards
+- Project screenshots with zoom on hover
+- Tech stack tags
+- Live demo and source code links
+- Team project indicators
+
+### Contact Section
+- Contact form (can integrate with EmailJS)
+- Social media links
+- Direct email link
+
+### Footer
+- Navigation links with smooth scroll
+- Social media icons
+- "Back to top" button
+- Crafted with love message
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/yourusername/portfolio/issues).
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 👤 Author
+
+**Bhawna Ahuja**
+
+- Portfolio: [bhawnaahuja.com](https://bhawnaahuja.com)
+- LinkedIn: [@bhawna-ahujaa](https://linkedin.com/in/bhawna-ahujaa)
+- GitHub: [@yourusername](https://github.com/bhawnaahuja89989-debug)
+- Email: bhawnaahuja89989@gmail.com
+
+## 🙏 Acknowledgments
+
+- [Next.js](https://nextjs.org/) - React framework
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS
+- [Framer Motion](https://www.framer.com/motion/) - Animation library
+- [Lucide Icons](https://lucide.dev/) - Beautiful icons
+- [Particles.js](https://particles.js.org/) - Particle effects
+
+---
+
+⭐️ If you like this portfolio, give it a star on GitHub!
+
+Made with 💜 and lots of ☕ by Bhawna Ahuja
