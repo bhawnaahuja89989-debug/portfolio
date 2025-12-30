@@ -5,7 +5,7 @@ import { useAnimation } from "framer-motion";
 import { useEffect } from "react";
 import { Variants } from "framer-motion";
 
-function useReanimate(trigger: any) {
+function useReanimate(trigger: string | number | boolean) {
   const controls = useAnimation();
 
   useEffect(() => {
@@ -23,7 +23,7 @@ export default function ScrollReveal({
   delay = 0,
 }: {
   children: React.ReactNode;
-  trigger: any;
+  trigger: string | number | boolean;
   delay?: number;
 }) {
   const controls = useReanimate(trigger);

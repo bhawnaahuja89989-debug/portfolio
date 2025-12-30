@@ -64,7 +64,7 @@ export default function JourneySection() {
             Journey <span className="text-primary">So Far</span>
           </h2>
           <p className="text-lg text-[hsl(var(--text-secondary))] max-w-2xl mx-auto">
-            From student to developer, here's how I've grown and evolved in the tech world
+            From student to developer, here&apos;s how I&apos;ve grown and evolved in the tech world
           </p>
         </motion.div>
 
@@ -226,7 +226,7 @@ export default function JourneySection() {
           <div className="inline-flex items-center gap-3 px-6 sm:px-8 py-4 bg-gradient-to-r from-primary/20 to-purple-600/20 border border-primary/40 rounded-2xl">
             <Sparkles className="w-5 sm:w-6 h-5 sm:h-6 text-primary flex-shrink-0" />
             <div className="text-left">
-              <p className="text-xs sm:text-sm text-[hsl(var(--text-secondary))]">What's Next?</p>
+              <p className="text-xs sm:text-sm text-[hsl(var(--text-secondary))]">What&apos;s Next?</p>
               <p className="text-base sm:text-lg font-bold">Future chapters await... 🚀</p>
             </div>
           </div>

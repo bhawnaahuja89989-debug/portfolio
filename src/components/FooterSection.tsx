@@ -63,7 +63,7 @@ export default function FooterSection() {
               </div>
               <p className="text-[hsl(var(--text-secondary))] leading-relaxed">
                 Full Stack Developer bringing ideas to life, one commit at a time.
-                Let's build something amazing together! 🚀
+                Let&apos;s build something amazing together! 🚀
               </p>
             </motion.div>
 
@@ -127,7 +127,7 @@ export default function FooterSection() {
                 <span className="text-[hsl(var(--text-primary))]"> Connect</span> 
               </h4>
               <p className="text-[hsl(var(--text-secondary))] text-sm mb-6 leading-relaxed">
-                Let's collaborate on exciting projects! Feel free to reach out through any platform.
+                Let&apos;s collaborate on exciting projects! Feel free to reach out through any platform.
               </p>
               <div className="flex flex-wrap gap-3 mb-6">
                 {socialLinks.map((social, index) => (

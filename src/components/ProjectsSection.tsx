@@ -65,7 +65,7 @@ export default function ProjectsSection() {
             Featured <span className="text-primary">Projects</span>
           </h2>
           <p className="text-base sm:text-lg text-[hsl(var(--text-secondary))] max-w-2xl mx-auto">
-            Real-world applications I've built and contributed to
+            Real-world applications I&apos;ve built and contributed to
           </p>
         </motion.div>
 

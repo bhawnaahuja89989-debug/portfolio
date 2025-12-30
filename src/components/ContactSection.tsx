@@ -43,11 +43,13 @@ export default function ContactSection() {
     }
   ];
 
-  const handleChange = (e: any) => {
-    const target = e.target as HTMLInputElement | HTMLTextAreaElement;
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
+    const target = e.target;
     setFormData({
       ...formData,
-      [target.name]: target.value
+      [target.name]: target.value,
     });
   };
 
@@ -118,8 +120,8 @@ export default function ContactSection() {
             Get In <span className="text-primary">Touch</span>
           </h2>
           <p className="text-lg text-[hsl(var(--text-secondary))] max-w-2xl mx-auto">
-            Have a project in mind or just want to chat? I'd love to hear from you.
-            Let's create something amazing together!
+            Have a project in mind or just want to chat? I&apos;d love to hear from you.
+            Let&apos;s create something amazing together!
           </p>
         </motion.div>
 
@@ -136,10 +138,10 @@ export default function ContactSection() {
           >
             <div>
               <h3 className="text-2xl font-bold text-primary mb-4">
-                Let's Connect
+                Let&apos;s Connect
               </h3>
               <p className="text-[hsl(var(--text-secondary))] leading-relaxed">
-                I'm always open to discussing new projects, creative ideas, or opportunities
+                I&apos;m always open to discussing new projects, creative ideas, or opportunities
                 to be part of your vision. Feel free to reach out through any of these channels.
               </p>
             </div>
@@ -301,7 +303,7 @@ export default function ContactSection() {
                 className="p-4 bg-green-500/20 border border-green-500/50 rounded-xl text-center"
               >
                 <p className="text-green-400 font-semibold">
-                  ✓ Thank you for your message! I'll get back to you soon.
+                  ✓ Thank you for your message! I&apos;ll get back to you soon.
                 </p>
               </motion.div>
             )}
