@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg: 0 0% 100%;
+    --text-primary: 222 47% 11%;
+    --text-secondary: 215 16% 47%;
+    --text-muted: 215 20% 65%;
+    --card: 0 0% 98%;
+    --btn-bg: 220 14% 96%;
+    --btn-bg-hover: 220 14% 90%;
+    --btn-text: 222 47% 11%;
+  }
+
+  .dark {
+    --bg: 0 0% 4%;
+    --text-primary: 0 0% 96%;
+    --text-secondary: 215 20% 75%;
+    --text-muted: 215 16% 60%;
+    --btn-bg: 0 0% 14%;
+    --btn-bg-hover: 0 0% 20%;
+    --btn-text: 0 0% 96%;
+
+    /* 
+    Bluish Black Theme Color
+    --bg: 222 47% 7%;
+    --text-primary: 210 40% 96%;
+    --text-secondary: 215 20% 75%;
+    --text-muted: 215 16% 60%;
+    --btn-bg: 222 47% 15%;
+    --btn-bg-hover: 222 47% 20%;
+    --btn-text: 210 40% 96%; 
+    */
+  }
+}
+
+@theme {
+  --color-primary: #9B5DE5;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important;
+}
+
+html,
+body,
+#__next,
+main {
+  -ms-overflow-style: none !important;
+  /* IE and Edge */
+  scrollbar-width: none !important;
+  /* Firefox */
+}
+
+/* WebKit browsers */
+html::-webkit-scrollbar,
+body::-webkit-scrollbar,
+#__next::-webkit-scrollbar,
+main::-webkit-scrollbar {
+  width: 0px !important;
+  height: 0px !important;
+  background: transparent !important;
+}
+
+/* As a fallback: make the scrollbar track invisible */
+*::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: transparent !important;
+}
