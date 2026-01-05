@@ -162,10 +162,8 @@ export default function FooterSection() {
             className="flex flex-col sm:flex-row justify-between items-center gap-4"
           >
             <div className="flex flex-col sm:flex-row items-center gap-4 text-sm text-[hsl(var(--text-muted))]">
-              <p className="flex items-center gap-2">
-                © {currentYear} Bhawna Ahuja. Made with
-                <Heart className="w-4 h-4 text-red-500 fill-red-500 inline-block animate-pulse" />
-                and lots of coffee
+              <p className="flex items-center gap-2 text-center">
+                © {currentYear} Bhawna Ahuja. Made with ❤️ and lots of coffee
               </p>
               <span className="hidden sm:block">•</span>
               <p>All rights reserved</p>

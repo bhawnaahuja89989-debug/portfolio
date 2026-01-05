@@ -22,7 +22,7 @@ export default function AboutSection() {
       icon: <Rocket className="w-6 h-6" />,
       title: "Performance Boost",
       description:
-        "Reduced application load time by  through optimization",
+        "Reduced application load time through optimization",
       highlight: "BotPenguin",
       color: "from-blue-500 to-cyan-500",
     },
@@ -57,6 +57,7 @@ export default function AboutSection() {
   };
 
   const techStack = [
+    "Javascript",
     "Angular",
     "React",
     "Node.js",

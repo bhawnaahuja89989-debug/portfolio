@@ -136,18 +136,11 @@ npm run start
 2. Import your repository on [Vercel](https://vercel.com)
 3. Vercel will automatically detect Next.js and deploy
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/portfolio)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/bhawnaahuja89989-debug/portfolio)
 
 ## 📝 Environment Variables
 
 No environment variables required for basic setup. If you add features like contact form API:
-
-```env
-# .env.local
-NEXT_PUBLIC_EMAILJS_SERVICE_ID=your_service_id
-NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=your_template_id
-NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=your_public_key
-```
 
 ## 🎯 Features Breakdown
 
@@ -198,7 +191,7 @@ NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=your_public_key
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/yourusername/portfolio/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [Contact page](https://github.com/bhawnaahuja89989-debug/portfolio).
 
 ## 📄 License
 
@@ -210,7 +203,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 - Portfolio: [bhawnaahuja.com](https://bhawnaahuja.com)
 - LinkedIn: [@bhawna-ahujaa](https://linkedin.com/in/bhawna-ahujaa)
-- GitHub: [@yourusername](https://github.com/bhawnaahuja89989-debug)
+- GitHub: [@bhawnaahuja89989-debug](https://github.com/bhawnaahuja89989-debug)
 - Email: bhawnaahuja89989@gmail.com
 
 ## 🙏 Acknowledgments
