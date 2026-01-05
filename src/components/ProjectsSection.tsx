@@ -13,7 +13,7 @@ export default function ProjectsSection() {
       period: "December 2025",
       technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion"],
       image: "/portfolio.png",
-      link: "https://bhawnaahuja.com",
+      link: "https://portfolio-bhawna.vercel.app/",
       hasSource: true,
       gradient: "from-blue-500 to-cyan-500",
       icon: <Code className="w-4 h-4" />,

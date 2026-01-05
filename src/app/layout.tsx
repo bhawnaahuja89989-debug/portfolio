@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://bhawnaahuja.com"),
+  metadataBase: new URL("https://portfolio-bhawna.vercel.app/"),
   title: "Bhawna | Software Developer Portfolio",
   description:
     "Portfolio of Bhawna – Software Developer specializing in Next.js, React, and modern web technologies.",

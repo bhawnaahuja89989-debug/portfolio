@@ -201,7 +201,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Bhawna Ahuja**
 
-- Portfolio: [bhawnaahuja.com](https://bhawnaahuja.com)
+- Portfolio: [portfolio-bhawna.vercel.app](https://portfolio-bhawna.vercel.app/)
 - LinkedIn: [@bhawna-ahujaa](https://linkedin.com/in/bhawna-ahujaa)
 - GitHub: [@bhawnaahuja89989-debug](https://github.com/bhawnaahuja89989-debug)
 - Email: bhawnaahuja89989@gmail.com

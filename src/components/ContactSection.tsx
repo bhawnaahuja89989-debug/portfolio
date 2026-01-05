@@ -235,7 +235,7 @@ export default function ContactSection() {
                   value={formData.name}
                   onChange={handleChange}
                   className="w-full px-4 py-3 bg-[hsl(var(--bg))]/60 backdrop-blur-xl border border-[hsl(var(--text-muted))] rounded-xl placeholder-[hsl(var(--text-secondary))] focus:outline-none focus:border-primary transition-colors"
-                  placeholder="John Doe"
+                  placeholder="Your full name"
                 />
               </div>
 
@@ -251,7 +251,7 @@ export default function ContactSection() {
                   value={formData.email}
                   onChange={handleChange}
                   className="w-full px-4 py-3 bg-[hsl(var(--bg))]/60 backdrop-blur-xl border border-[hsl(var(--text-muted))] rounded-xl placeholder-[hsl(var(--text-secondary))] focus:outline-none focus:border-primary transition-colors"
-                  placeholder="john@example.com"
+                  placeholder="your@email.com"
                 />
               </div>
 
